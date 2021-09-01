@@ -22,5 +22,13 @@ puts "Creating purchases..."
 # * and a role belongs to an kid.                         *
 # ***********************************************************
 # Create Purchases Here
+Purchase.create(kid: andy, toy: woody, quantity: 1)
+Purchase.create(kid: andy, toy: buzz, quantity: 1)
+Purchase.create(kid: andy, toy: bopeep, quantity: 1)
+Purchase.create(kid: andy, toy: potato, quantity: 2)
+Purchase.create(kid: sid, toy: rex, quantity: 6)
+Purchase.create(kid: sid, toy: buzz, quantity: 5)
+
+
 
 puts "Seeding done!"
